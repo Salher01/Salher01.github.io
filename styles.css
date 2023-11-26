@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+#navbar{
+    background-color:#9a9b9b;
+    
+}
+
+#logo img{
+   
+    width: 200px;
+    margin-left: 40px;
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.nav-item .nav-link{
+    color: black;
+   
+    font-weight: bold;
+    font-size: larger;
+   
+    padding: 16px;
+    
+    }
+.nav-item .nav-link:hover{
+    color: #f1f1f1;
+    transition: 0,5s;
+
+}
+
+
+.dropbtn {
+    background-color:#9a9b9b;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    
+  }
+
+  .dropbtn:hover{
+    color: #f1f1f1;
+    transition: 0,5;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  
+  .dropdown-content a:hover {background-color:#9a9b9b;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #9a9b9b;}
+
+.mdi{
+    font-size: 40px;
+    margin-right: 15px;
+    margin-top: 20px;
+    color: black;
+}
+.mdi:hover{
+    color: white;
+    transition: 0.5s;   
+}
+
+
+    
+
+#navbar form{
+    margin-right: 40px;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#navbar form button:hover{
+    background-color: #9a9b9b;
+}
+
+.row-hero{
+   width: 100%;
+   height: 50vh;
+   background-image: url(/pics/la\ cabras\ hero.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50%;
+}
+
+
+
+.card-body{
+    text-align: center;
+    font-weight: light;
+    font-size: x-large;
+    margin: 20px;
+      
+}
+
+.row-1{
+    display: flex;
+}
+
+.card-img-top{
+    height: 45vh;
+}
+
+.row-btn{
+    padding-top: 40px;
+    
+}
+
+.row{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+} 
+
+
+.col-md-2{
+    font-size: x-large;
+    padding-top: 125px;
+    margin-left: 80px;
+           
+}
+.p1{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #9a9b9b;
+    display: flex;
+   
+}
+
+.col-md-2-foot{
+    padding-top: 50px;
+    margin-left: 40px;
+    flex-grow: 2;
+    
+}
+
+.foot-logo{
+    width: 200px;
+    margin-left: 40px;
+}
+
+.p2{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.p2:hover{
+    background:#9a9b9b;
+    color: white;
+    border-radius: 0.5s;
+    
+}
+
+/* latest releases */
+
+.row-first{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/imgs/la\ cabra\ hero\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+}
+
+
+/* brew guide - second html */
+.row-brew{
+    margin: 40px;
+    display: flex;
+}
+
+.col-md-3{
+    font-size: x-large;
+    padding-top: 100px;
+    margin-left: 80px;
+           
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .card-group {
+        flex-direction: column;
+        margin:10px;
+    }
+   
+    footer{
+        flex-direction: column;
+    }
+
+  }
+
+
+.price{
+    display:block
+  }
+
+
+ /* contact siden - third html*/
+
+ .row-contact{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/pics/la\ cabra\ hero\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+   
+ }
+.text-block{
+    color:white;
+    font-size: large;
+    padding: 100px 0 0 200px;
+   
+}
+ form{
+    margin-top: 20px;
+ }
+ 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: #9a9b9b;
+  }
+  
+
+  
+ 
+
+
